@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<script>
+    function simpleAlert() {
+        alert("Hello! I am a simple alert box!");
+    }
+
+    function confirmAlert() {
+        var txt;
+        var r = confirm("Press a button!\nEither OK or Cancel.\nThe button you pressed will be displayed in the result window.");
+        if (r == true) {
+            txt = "You pressed OK!";
+        } else {
+            txt = "You pressed Cancel!";
+        }
+        document.getElementById("confirmMemo").innerHTML = txt;
+    }
+
+    function promptAlert() {
+        var person = prompt("Please enter your name", "Harry Potter");
+        if (person != null) {
+            document.getElementById("inputMemo").innerHTML = "Hello " + person + "! How are you today?";
+        }
+    }
+</script>
+
+<body>
+
+    <p>Click the button to display a simple alert box.</p>
+    <button onclick="simpleAlert()" id="simpleAlert">Try it</button>
+
+
+    <p>Click the button to demonstrate line-breaks in a confirm box.</p>
+    <button onclick="confirmAlert()" id="confirmAlert">Try it</button>
+    <p id="confirmMemo"></p>
+
+
+    <p>Click the button to demonstrate the prompt box.</p>
+    <button onclick="promptAlert()" id="promptAlert">Try it</button>
+    <p id="inputMemo"></p>
+
+</body>
+
+</html>

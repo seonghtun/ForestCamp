@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문 입니당.-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <title>
+        캠핑장
+    </title>
+    <script type="text/javascript" src="other.js"></script>
+    <script>
+        window.onload = campInfo('/camp/search/')
+        window.addEventListener('load', function () {
+            const like = document.querySelector('i.xi-2x')
+            console.log(like)
+            like.addEventListener("click", (e) => {
+                e.target.classList.toggle('xi-heart-o');
+                e.target.classList.toggle("xi-heart");
+                if (e.target.style.color == "") {
+                    e.target.style.color = "red"
+                }
+                else {
+                    e.target.style.color = ""
+                }
+            });
+        });
+
+    </script>
+
+
+
+    <style>
+        #image {
+            width: 400px;
+            height: 400px;
+        }
+
+        button.heartBtn {
+            cursor: pointer;
+            background-color: transparent;
+            position: absolute;
+            left: 350px;
+            top: 10px;
+            border: 0px;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+
+
+        }
+
+        .Calendar {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .Calendar>thead>tr:first-child>td {
+            text-align: left;
+            font-weight: bold;
+            font-size: 30px;
+        }
+
+        .Calendar>thead>tr:last-child>td {
+            background-color: gray;
+            color: white;
+        }
+
+        .pastDay {
+            background-color: lightgray;
+        }
+
+        .today {
+            background-color: #FFCA64;
+            cursor: pointer;
+        }
+
+        .futureDay {
+            background-color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .futureDay.choiceDay,
+        .today.choiceDay {
+            background-color: #3E85EF;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+        /* * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizelegibility;
+            letter-spacing: -0.25px;
+        } */
+
+        ul {
+            font-family: 'Space Mono', monospace;
+            display: flex;
+            flex-direction: column;
+            max-width: 420px;
+            padding: 32px;
+            margin: 60px auto;
+            border: 1px solid #eee;
+            box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.06);
+            padding-left: 50px;
+            list-style: none;
+        }
+
+        li {
+            color: #4F4F4F;
+            padding-left: 16px;
+            margin-top: 24px;
+            margin-left: 24px;
+            position: relative;
+            font-size: 16px;
+            line-height: 20px;
+
+            /* &:before {
+                display: block;
+                height: 42px;
+                width: 42px;
+                border-radius: 50%;
+                border: 2px solid #000;
+                position: absolute;
+                top: -12px;
+                left: -46px;
+            } */
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+    </header>
+    <nav>
+    </nav>
+    <aside></aside>
+    <main>
+
+        <div id="img-box">
+            <img src="#" id="image" />
+            <button class="heartBtn">
+                <i class="xi-heart-o xi-2x"></i>
+            </button>
+            <!-- <button class="btn2" type="button" onclick="sensorBtnClick('btn2');">버튼2</button> -->
+        </div>
+        <div class="alternating-colors">
+            <ul>
+            </ul>
+        </div>
+        <div class="calendar-box">
+            <table class="Calendar">
+                <thead>
+                    <tr>
+                        <td colspan="7">
+                            <span id="calYear"></span>년
+                            <span id="calMonth"></span>월
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>일</td>
+                        <td>월</td>
+                        <td>화</td>
+                        <td>수</td>
+                        <td>목</td>
+                        <td>금</td>
+                        <td>토</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+        <div id="use-info">
+        </div>
+    </main>
+    <section>
+        <div id="rate">
+
+        </div>
+    </section>
+    <footer></footer>
+
+</body>
+
+</html>

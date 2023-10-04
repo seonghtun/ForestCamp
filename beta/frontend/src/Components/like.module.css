@@ -1,0 +1,15 @@
+.svg {
+    transform: rotate(-45deg);
+    transition: 2s ease-out;
+    animation: fadeIn 1s ease-in alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
