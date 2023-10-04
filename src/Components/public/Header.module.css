@@ -1,0 +1,46 @@
+.headerContainer {
+  /* background-color: rgba(215, 252, 202, 4); */
+  width: 1024px;
+  height: 100px;
+  position: absolute;
+}
+
+.logo {
+  padding: 15px 25px 25px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.icon {
+  margin-top: 15px;
+  height: 68px;
+  font-size: 22px;
+  padding-top: 15px;
+
+}
+
+.icons {
+  text-decoration: none;
+  color: black;
+}
+
+.icon_spacing {
+  padding-right: 20px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.logoImg {
+  content: url('/src/images/header_Logo.png');
+  width: 140px;
+  height: 68px;
+}

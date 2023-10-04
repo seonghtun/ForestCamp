@@ -1,0 +1,56 @@
+.main {
+    margin-top: 100px;
+    width: 1440px;
+    margin-bottom: 400px;
+}
+
+.nav {
+    list-style: None;
+    display: flex;
+}
+
+.box {}
+
+.div_desc {
+    margin: 10px
+}
+
+.name {
+    color: gray;
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+}
+
+.box {
+    margin-top: 5px;
+    padding: 5px;
+    cursor: pointer;
+    user-select: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.box:hover {
+    transform: scale(1.02);
+}
+
+.box:active {
+    box-shadow: inset -.3rem -.1rem 1.4rem #FBFBFB, inset .3rem .4rem .8rem #BEC5D0;
+    cursor: pointer;
+}
+
+
+
+
+.am {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin: 10px
+}
+
+
+
+.img {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}

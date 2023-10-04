@@ -1,0 +1,10 @@
+.size {
+    width: 642px;
+    height: 436px;
+    margin: 0px auto;
+}
+
+.img_wrapper {
+    display: flex;
+    justify-content: center;
+}

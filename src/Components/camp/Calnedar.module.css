@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+
+.calendar {
+    width: 538px;
+    height: 326px;
+    /* font-family: 'IBM Plex Sans', sans-serif; */
+    max-width: 538px;
+    /*change as per your design need */
+    min-width: 320px;
+    background: #FFF;
+    margin: 0px auto;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-weight: normal;
+    border-radius: var(--calendar-border-radius);
+    padding: 10px;
+    text-align: center;
+}
+
+.day_disabled {
+    color: gray;
+    /* background-color: rgba(241, 239, 239, 0.779); */
+    font-size: 8px;
+    pointer-events: none;
+    color: #c1c1c1;
+    background: repeating-linear-gradient(45deg, #f0fbfe, #f0fbfe 5px, #ffffff 5px, #ffffff 10px);
+}
+
+.today {
+    background: var(--calendar-current-date-color);
+    border-radius: 10px;
+}
+
+.cell {
+    width: 76px;
+    height: 54px;
+    vertical-align: top;
+    background-color: #f0fbfe;
+    transition: all 0.1s ease-in-out;
+    border-radius: 100%;
+}
+
+.cell:hover {
+    width: 76px;
+    height: 54px;
+    vertical-align: top;
+    border: 2px solid #9aceff;
+    transform: scale(1.2);
+    background-color: transparent;
+}
+
+.head_cell {
+    height: 34px;
+    vertical-align: top;
+    color: #0061a8;
+}
+
+
+.state {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* .selected {}
+
+.notSelected {} */
+
+.head {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head_title {
+    font-family: "Kaushan Script", cursive;
+    font-size: 28px;
+    letter-spacing: 2px;
+    line-height: 1;
+    color: #0061a8;
+    margin: 0px;
+}
+
+.head_subtitle {
+    font-size: 14px;
+    color: #919191;
+    margin: 3px;
+}
