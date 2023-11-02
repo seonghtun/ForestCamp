@@ -32,7 +32,7 @@
 ## back-end 아키텍쳐 설계
 
 <p align="center">
-<img src='https://github.com/seonghtun/ForestCamp/assets/74886046/8edd99e9-d122-4c1a-8502-a4b379807b5f' width='600px' height='380px'>
+<img src='https://github.com/seonghtun/ForestCamp/assets/74886046/8edd99e9-d122-4c1a-8502-a4b379807b5f' width='600px' height='350px'>
 </p>
 
 ### 기능 동작
