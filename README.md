@@ -38,7 +38,7 @@
 ### 기능 동작
 |                전체 화면             |                sign up               |
 | :----------------------------------: | :----------------------------------: | 
-| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e0d33021-77ed-43f4-bdf3-d72507daa963' width='400px' height='400px'> | <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e7ae0496-4111-4ff8-9853-3bb2c9468325' width='400px' height='300px'>  |
+| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e0d33021-77ed-43f4-bdf3-d72507daa963' width='400px' height='300px'> | <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e7ae0496-4111-4ff8-9853-3bb2c9468325' width='400px' height='300px'>  |
 
 |                return              |                rental               |
 | :----------------------------------: | :----------------------------------: |
