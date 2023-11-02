@@ -38,11 +38,11 @@
 ### 기능 동작
 |                전체 화면             |                sign up               |
 | :----------------------------------: | :----------------------------------: | 
-| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e0d33021-77ed-43f4-bdf3-d72507daa963' width='340px' height='170px'> | <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e7ae0496-4111-4ff8-9853-3bb2c9468325' width='340px' height='170px'> |
+| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e0d33021-77ed-43f4-bdf3-d72507daa963' width='380px' height='190px'> | <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/e7ae0496-4111-4ff8-9853-3bb2c9468325' width='380px' height='190px'> |
 
 |                return              |                rental               |
 | :----------------------------------: | :----------------------------------: |
-| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/29467aa2-07ac-4fa5-be32-447cbd0f7abe' width='340px' height='170px'> | <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/90a81ef9-52b3-404b-8c24-9a329da9c126' width='340px' height='170px'> |
+| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/29467aa2-07ac-4fa5-be32-447cbd0f7abe' width='380px' height='190px'>| <img src='https://github.com/LeeMyungdeok/forestcamp/assets/115915362/90a81ef9-52b3-404b-8c24-9a329da9c126' width='380px' height='190px'> |
 
 
 ## 팀명: forestcamp
